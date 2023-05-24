@@ -8,173 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        *{
-            margin:0;
-            padding:0;
-        }
-        html {
-            scroll-behavior: smooth;
-        }
-        body{
-            background-color: rgb(255, 255, 255);
-            color: rgb(0,0,33);
-            font-family: 'Poppins', sans-serif;
-        }
-
-        nav{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18,18,62);
-        }
-        nav ul{
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li{
-            list-style: none;
-            margin: 0 23px;
-        }
-        nav ul li a{
-            text-decoration: none;
-            color: white;
-        }
-        nav ul li a:hover{
-            color: blueviolet;
-            font-size: 1.06rem;
-        }
-        main hr{
-            border:0;
-            background: #9c97f1;
-            height: 1px;
-            margin: 60px 85px;
-        }
-        .left{
-            font-size: 1.75rem;
-            color: white;
-        }
-        .firstSection{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 130px 0;
-        }
-        .firstSection > div{
-            width: 30%;
-        }
-        .leftSection{
-            font-size: 2.4rem;
-            
-        }
-        .leftSection .btn{
-            padding:12px;
-            background-color: #5d61db;
-            color: white;
-            border: 2px solid white;
-            border-radius: 6px;
-            font-size: 20px;
-            cursor: pointer;
-        }
-        .leftSection .btn a{
-            text-decoration: none;
-            color: white;
-        }
-        .rightSection img{
-            width: 100%;
-            position: relative;
-            top: -70px;
-            
-        }
-        .purple{
-            color: blueviolet;
-        }
-        .purple2{
-            color: blueviolet;
-            font-weight: bolder;
-        }
-        .red{
-            color: red;
-            font-weight: 1000;
-            font-size: 3.2rem;
-        }
-        .white{
-            color: white;
-        }
-        #element{
-            
-        }
-        .secondSection{
-            max-width: 80vw;
-            margin:auto;
-            height: 80vh;
-        }
-        .secondSection h1{
-            font-size: 2rem;;
-        }
-        .secondSection .box{
-            background: rgb(0,0,33);;
-            width: 80vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-        }
-        .secondSection .vertical{
-            height: 93px;
-            width: 1px;
-            background-color: rgb(0,0,33);
-            margin: 0 185px;
-        }
-        .thirdSection{
-            max-width: 80vw;
-            margin:auto;
-            height: 80vh;
-        }
-        .thirdSection h1{
-            font-size: 2rem;;
-        }
-        .left-image{
-            width: 35px;
-            position: relative;
-            top: 10px;
-        }
-        .image-top{
-            width: 35px;
-            position: relative;
-            top: -40px;
-            left: -17px;
-        }
-        .vertical-title{
-            position: relative;
-            top: 75px;
-            width: 300px;
-            font-weight: 900;
-            color: #9c97f1;
-            font-size: 16px;
-        }
-        .vertical-desc{
-            position: relative;
-            top: 100px;
-            width: 300px;
-            color: gray;
-            font-size: 14px;
-        }
-        .vertical-date{
-            position: relative;
-            top: 75px;
-            width: 300px;
-            font-size: 15px;
-        }
-        .vertical-position{
-            font-style: italic;
-            position: relative;
-            top: 75px;
-            width: 300px;
-            font-size: 15px;
-            color: rgb(28, 164, 213);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -185,7 +19,7 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="#workExperience">Work Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="/">Publications</a></li>
+                    <li><a href="#publications">Publications</a></li>
                     <li><a href="/">Contact Me</a></li>
                 </ul>
             </div>
@@ -199,10 +33,10 @@
                 <div>and I am a student at</div>
                 <div><span class="red">RU </span><span class="white"></span><span id="element"></span></div>
                 <div class="buttons">
-                    <a href="SarthakDalal_Resume.pdf"><img src = "resume_logo.png" class="left-image"></a>
-                    <a href="https://github.com/sarthakdalal28"><img src = "github_logo.png" class="left-image"></a>
-                    <a href="https://www.linkedin.com/in/sarthak-dalal-b818a0131/"><img src = "linkedin_logo.png" class="left-image"></a>
-                    <a href="https://scholar.google.com/citations?hl=en&user=SA484ioAAAAJ"><img src = "google_scholar.png" class="left-image"></a>
+                    <a href="SarthakDalal_Resume.pdf"><img src = "logos/resume_logo.png" class="left-image"></a>
+                    <a href="https://github.com/sarthakdalal28"><img src = "logos/github_logo.png" class="left-image"></a>
+                    <a href="https://www.linkedin.com/in/sarthak-dalal-b818a0131/"><img src = "logos/linkedin_logo.png" class="left-image"></a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=SA484ioAAAAJ"><img src = "logos/google_scholar.png" class="left-image"></a>
 
                 </div>              
             </div>
@@ -216,7 +50,7 @@
             <div id="workExperience"><h1>Work Experience</h1></div>
             <div class="box">            
                 <div class="vertical">
-                    <img class ="image-top" src="djsr_logo.png" alt="">
+                    <img class ="image-top" src="logos/djsr_logo.png" alt="">
                     <div class="vertical-title">
                         DJS Racing
                     </div>
@@ -242,7 +76,7 @@
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class ="image-top" src="ttmg_logo.png" alt="">
+                    <img class ="image-top" src="logos/ttmg_logo.png" alt="">
                     <div class="vertical-title">
                         The Tann Mann Foundation
                     </div>
@@ -260,7 +94,7 @@
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class ="image-top" src="gravitas_logo.png" alt="">
+                    <img class ="image-top" src="logos/gravitas_logo.png" alt="">
                     <div class="vertical-title">
                         Gravitas AI 
                     </div>
@@ -280,7 +114,7 @@
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class ="image-top" src="iit_logo.png" alt="">
+                    <img class ="image-top" src="logos/iit_logo.png" alt="">
                     <div class="vertical-title">
                         Indian Insitute of Technology - Delhi 
                     </div>
@@ -304,7 +138,122 @@
         <hr>
         <section class="thirdSection">
             <div id="projects"><h1>Projects</h1></div>
+            <div class="grid-container">
+                <div class="card">
+                  <h3>Two-Way Real-Time Sign Language Recognition</h3>
+                  <p class="date">Feb 2023 – Apr 2023</p>
+                  <div class="video-wrapper">
+                    <video controls>
+                      <source src="videos/SLR_project.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <ul>
+                    <li>Developed a Two-Way Real-Time Sign Language Recognition system using a Convolutional Neural Network (CNN) for American Sign Language (ASL) and Indian Sign Language (ISL).</li>
+                    <li>Used a dataset with 140 images for each sign for both language systems, used skin detection and hand segmentation techniques to isolate the hand region from the background.</li>
+                    <li>Implemented CNN for classification of signs and achieved an accuracy of over 90% on the test set.</li>
+                    <li>Click <a href="https://drive.google.com/file/d/11HIzoeOGVWHysG5NqF5ZSCS9oj5QkqFK/view?usp=share_link">here</a> for complete Report on the Project.</li>
+                  </ul>
+                </div>
+                
+                <div class="card">
+                  <h3>American Sign Language Recognition using Yolov5</h3>
+                  <p class="date">Feb 2023 – Apr 2023</p>
+                  <div class="video-wrapper">
+                    <video controls>
+                      <source src="videos/SLR_yolo.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <ul>
+                    <li>Developed a Real-Time American Sign Language Recognition model using Yolov5</li>
+                    <li>Annotated 40 images for each sign using Roboflow to prepare the training and validation dataset.</li>
+                    <li>Received a confidence level of above 0.7 on all signs while testing.</li>
+                    <li>Click <a href="https://drive.google.com/file/d/1tjwpT4ztS4Pn-WpgCRK4rs4y0WBTRIdl/view?usp=share_link">here</a> for complete Report on the Project.</li>
+                  </ul>
+                  </ul>
+                </div>
+              </div>
+            <div class="grid-container-2">
+                <div class="card">
+                  <h3>Fast Trajectory Replanning</h3>
+                  <p class="date">Sep 2022 – Oct 2022</p>
+                  <div class="video-wrapper">
+                    <video controls>
+                      <source src="videos/fast_trajectory.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <ul>
+                    <li>Led a team of 3 in developing a maze-solving application using the A* search algorithm that enables an agent to navigate a 101x101 grid maze with obstacles to reach a target cell using the shortest route, with a Manhattan distance heuristic.</li>
+                    <li>Implemented and tested backward A* search and adaptive A* search algorithms, comparing their execution times to forward A* search.</li>
+                    <li>Created an interactive graphical user interface using the pygame module to visually display the shortest path the agent takes to reach the target.</li>
+                    <li>Click <a href="https://github.com/sarthakdalal28/Fast-Trajectory-Replanning">here</a> for the complete project.</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>BidBazaar</h3>
+                    <p class="date">Feb 2023 – Apr 2023</p>
+                    <ul>
+                        <li>An auction website like eBay, with features like user account creation, auctions, browsing and advanced search functionality, and admin and customer representative functions.</li>
+                        <li>Click <a href="https://github.com/sarthakdalal28/BidBazaar">here</a> for the complete project.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Battery Management and Data Analytics of Battery and Vehicle Data </h3>
+                    <p class="date">Sep 2021 – Apr 2022</p>
+                    <ul>
+                        <li>Led a team of 4 in designing a Data Acquisition System and Battery Management System and integrating
+                            it into the brain of the vehicle, (Vehicle Control Unit) to create a robust electronics system for an Electrics Vehicle.</li>
+                        <li> Prepared Machine Learning models such as Gradient Boosting, Random Forest, LASSO Regression to predict 
+                            the SOC (State of Charge) of the battery of the vehicle. Gradient Boosting achieved the best R2 score of 0.977.</li>
+                        <li>Click <a href = "https://drive.google.com/file/d/1h5LKCGwVmHiE2JE1-vqnd2KJ_P_MXbcI/view?usp=share_link">here</a> for complete Report on the Project.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Electrokeet</h3>
+                    <p class="date">Sep 2019 - May 2021</p>
+                    <ul>
+                        <li> Our Team's entry to IICDC 2019-2020 competition - Electrokeet is a drone that uses thermal imaging and AI to detect pests at their nascent phases of life.</li>
+                        <li> Integrated AMG8833 with Arduino UNO to design a thermal camera.</li>
+                        <li> Used a Texas Instruments board, MSP430F5438 and integrated it to a soil sensor.</li>
+                        <li> Designed the front end of the market place of the website using HTML, CSS, JS.</li>
+                        <li>Click <a href="https://www.youtube.com/playlist?app=desktop&list=PLqhmzublQR2dDv7V1wk5Ys_D9UJpwZWI9">here</a> for the youtube playlist on our competition submissions.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>
+                        Unmanned Autonomous Vehicle </h3>
+                    <p class="date">Sep 2020 - Apr 2021Sep</p>
+                    <ul>
+                        <li>Engineered an unmanned autonomous vehicle to improve the disaster management system of our country, by delivering food and medicines from time to time to the numerous quarantine centers.</li>
+                        <li> Performed a running simulation of the autonomous robot on Gazebo using ROS.
+                            Executed JS framework to design a GUI and assembled a prototype using Raspberry Pi 3B, Rpi Cam, Arduino UNO, HCSR-05 ultrasonic sensor and GPS module.</li>
+                        <li>Click <a href = "https://djsceietesf.files.wordpress.com/2021/06/dj-strike-magazine-final.pdf">here</a> for complete Report on the Project.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
+        <hr>
+        <section class="fourthSection">
+            <div id="publications"><h1>Publications</h1></div>
+            <div class="space"></div>
+            <div><span class="bold">S. Dalal</span>, R. Kacheria and V. Venkataramanan, "<a href="https://ieeexplore.ieee.org/abstract/document/9914329/references#references">A Comparative Study on Sign Language Recognition Methods</a>," 2022 International Conference on Innovative Computing, Intelligent Communication and Smart Electrical Systems (ICSES), Chennai, India, 2022, pp. 1-7, doi: 10.1109/ICSES55317.2022.9914329.</div>
+            <div class="space"></div>
+            <div>I. Khetan, P. Sheth, <span class="bold">S. Dalal</span>, S. Mistry, V. Sharma and N. Katre, "<a href="https://ieeexplore.ieee.org/document/9702308">Arbitrage in Cryptocurrency: A Survey</a>," 2021 5th International Conference on Information Systems and Computer Networks (ISCON), Mathura, India, 2021, pp. 1-4, doi: 10.1109/ISCON52037.2021.9702308.</div>
+            <div class="space"></div>
+            <div id="publications"><h2>Unpublished</h2></div>
+            <div class="space"></div>
+            <h3>LexRank and PEGASUS Transformer for Summarization of Legal Documents</h3>
+            <div class="published-where">Machine Intelligence and Signal Processing (MISP)</div>
+            <ul>
+                <li>The research paper presented a novel method of abstractive summarization of legal documents using
+                    LexRank algorithm and PEGASUS Transformer</li>
+                <li>The summaries generated by this method outperformed 5 other methods tested on 6 documents by achieving a ROUGE-F1 metric of 0.689.</li>
+                <li>Awarded the Best Paper in the presented track at MISP, 2022.</li>
+            </ul>
+            <img class ="certi" src="logos/certi.jpg" alt="">
+        </section>
+        <hr>
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
