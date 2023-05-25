@@ -99,6 +99,7 @@ main hr{
     max-width: 80vw;
     margin:auto;
     height: 80vh;
+    margin-bottom: 10%;
 }
 .secondSection h1{
     font-size: 2rem;;
@@ -121,7 +122,7 @@ main hr{
     max-width: 80vw;
     margin:auto;
     height: 80vh;
-    margin-bottom: 100%;
+    margin-bottom: 120%;
 }
 .thirdSection h1{
     font-size: 2rem;
@@ -130,7 +131,7 @@ main hr{
     max-width: 80vw;
     margin:auto;
     height: 80vh;
-    margin-bottom: 0%;
+    margin-bottom: 20%;
 }
 .fourthSection h1{
     font-size: 2rem;;
@@ -149,7 +150,7 @@ main hr{
 .certi{
     width: 21.875em;
     position: relative;
-    left: 62.5em;
+    left: 50.5em;
     top: -14.0625em;
 }
 .vertical-title{
@@ -233,7 +234,7 @@ main hr{
         margin-top:2%;
         }
 .fourthSection ul li{
-    margin-right: 50em;
+    margin-right: 30em;
     padding: 0;
     list-style-type: disc;
     }
