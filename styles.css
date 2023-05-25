@@ -10,7 +10,18 @@ body{
     color: rgb(0,0,33);
     font-family: 'Poppins', sans-serif;
 }
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.header{
+    z-index: 9999;
+}
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+  }
 nav{
     display: flex;
     justify-content: space-around;
@@ -122,7 +133,7 @@ main hr{
     max-width: 80vw;
     margin:auto;
     height: 80vh;
-    margin-bottom: 120%;
+    margin-bottom: 110%;
 }
 .thirdSection h1{
     font-size: 2rem;
@@ -131,13 +142,13 @@ main hr{
     max-width: 80vw;
     margin:auto;
     height: 80vh;
-    margin-bottom: 20%;
+    margin-bottom: 13%;
 }
 .fourthSection h1{
     font-size: 2rem;;
 }
 .left-image{
-    width: 2.1875em;
+    width: 1em;
     position: relative;
     top: 0.625em;
 }
@@ -150,7 +161,7 @@ main hr{
 .certi{
     width: 21.875em;
     position: relative;
-    left: 50.5em;
+    left: 60.5em;
     top: -14.0625em;
 }
 .vertical-title{
@@ -234,7 +245,7 @@ main hr{
         margin-top:2%;
         }
 .fourthSection ul li{
-    margin-right: 30em;
+    margin-right: 45em;
     padding: 0;
     list-style-type: disc;
     }
@@ -267,4 +278,20 @@ ul li {
 .bold{
     font-style:italic;
     
+}
+footer{
+    background-color: rgb(213, 234, 248);
+    height: 5em;
+    
+}
+.footer{
+    display: flex;
+    padding: 1.4375em;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer-image{
+    width: 1.5em;
 }

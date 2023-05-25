@@ -9,25 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
+
 </head>
 <body>
-    <header>
+    <header class="header" id="myHeader">
         <nav>
             <div class="left">Sarthak Dalal</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="#firstSection">Home</a></li>
                     <li><a href="#workExperience">Work Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#publications">Publications</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#myFooter">Contact Me</a></li>
                 </ul>
             </div>
                 
         </nav>
     </header>
     <main>
-        <section class="firstSection">
+        <section class="firstSection" id="firstSection">
             <div class="leftSection">
                 Hi, my name is <span class="purple">Sarthak</span> 
                 <div>and I am a student at</div>
@@ -253,9 +255,30 @@
             </ul>
             <img class ="certi" src="logos/certi.jpg" alt="">
         </section>
-        <hr>
     </main>
+    <footer>
+        <div class="footer" id="myFooter">
+            <div class="footer-first">
+                <h3>Contact Me</h3>
+            </div>
+            <div class="footer-second"></div>
+            <ul>
+                <li><img src = "logos/phone.png" class="footer-image"> +1 (848) 448-9098</li>
+            </ul>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="mailto: spd115@scarletmail.rutgers.edu"><img src = "logos/email.png" class="footer-image"></a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/sarthak-dalal-b818a0131/"><img src = "logos/linkedin_logo.png" class="footer-image"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
     <script>
         var typed = new Typed('#element', {
           strings: ['tgers University', ' pursuing <span class="purple2">MSCS</span>'],
