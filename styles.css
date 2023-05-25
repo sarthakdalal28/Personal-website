@@ -15,7 +15,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 5em;
     background-color: rgb(18,18,62);
 }
 nav ul{
@@ -24,7 +24,7 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin: 0 23px;
+    margin: 0 1.4375em;
 }
 nav ul li a{
     text-decoration: none;
@@ -37,8 +37,9 @@ nav ul li a:hover{
 main hr{
     border:0;
     background: #9c97f1;
-    height: 1px;
-    margin: 60px 85px;
+    height: 0.0625em;
+    margin: 3.75em 5.3125em;
+    position: relative;
 }
 .left{
     font-size: 1.75rem;
@@ -48,7 +49,7 @@ main hr{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 130px 0;
+    margin: 8.125em 0;
 }
 .firstSection > div{
     width: 30%;
@@ -58,12 +59,12 @@ main hr{
     
 }
 .leftSection .btn{
-    padding:12px;
+    padding:0.75em;
     background-color: #5d61db;
     color: white;
-    border: 2px solid white;
-    border-radius: 6px;
-    font-size: 20px;
+    border: 0.125em solid white;
+    border-radius: 0.375em;
+    font-size: 1.25em;
     cursor: pointer;
 }
 .leftSection .btn a{
@@ -73,7 +74,7 @@ main hr{
 .rightSection img{
     width: 100%;
     position: relative;
-    top: -70px;
+    top: -4.375em;
     
 }
 .purple{
@@ -105,13 +106,13 @@ main hr{
 .secondSection .box{
     background: rgb(0,0,33);;
     width: 80vw;
-    height: 2px;
-    margin: 56px 0;
+    height: 0.125em;
+    margin: 3.5em 0;
     display: flex;
 }
 .secondSection .vertical{
-    height: 60px;
-    width: 1px;
+    height: 3.75em;
+    width: 0.0625em;
     background-color: rgb(0,0,33);
     position: relative;
     margin: auto;
@@ -120,103 +121,103 @@ main hr{
     max-width: 80vw;
     margin:auto;
     height: 80vh;
-    margin-bottom: 90%;
+    margin-bottom: 100%;
 }
 .thirdSection h1{
-    font-size: 2rem;;
+    font-size: 2rem;
 }
 .fourthSection{
     max-width: 80vw;
     margin:auto;
     height: 80vh;
-    margin-bottom: -10%;
+    margin-bottom: 0%;
 }
 .fourthSection h1{
     font-size: 2rem;;
 }
 .left-image{
-    width: 35px;
+    width: 2.1875em;
     position: relative;
-    top: 10px;
+    top: 0.625em;
 }
 .image-top{
-    width: 35px;
+    width: 2.1875em;
     position: relative;
-    top: -40px;
-    left: -17px;
+    top: -2.5em;
+    left: -1.0625em;
 }
 .certi{
-    width: 350px;
+    width: 21.875em;
     position: relative;
-    left: 1000px;
-    top: -225px;
+    left: 62.5em;
+    top: -14.0625em;
 }
 .vertical-title{
     position: relative;
-    top: 20px;
-    width: 300px;
+    top: 1.25em;
+    width: 18.75em;
     font-weight: 900;
     color: #9c97f1;
-    font-size: 16px;
+    font-size: 1em;
 }
 .vertical-desc{
     position: relative;
-    top: 45px;
-    width: 250px;
+    top: 2.8125em;
+    width: 15.625em;
     color: gray;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 .vertical-date{
     position: relative;
-    top: 20px;
-    width: 300px;
-    font-size: 15px;
+    top: 1.25em;
+    width: 18.75em;
+    font-size: 0.9375em;
 }
 .vertical-position{
     font-style: italic;
     position: relative;
-    top: 20px;
-    width: 300px;
-    font-size: 15px;
+    top: 1.25em;
+    width: 18.75em;
+    font-size: 0.9375em;
     color: rgb(28, 164, 213);
 }
 .published-where{
     font-style: italic;
     position: relative;
-    width: 1000px;
-    font-size: 15px;
+    width: 62.5em;
+    font-size: 0.9375em;
     color: rgb(28, 164, 213);
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-gap: 1.25em;
     margin-top: 2%;
     }
 .grid-container-2 {
     display: grid;
-    grid-template-columns: 740px;
-    grid-gap: 20px;
+    grid-template-columns: 46.25em;
+    grid-gap: 1.25em;
     margin-top: 2%;
     margin-left: 25%;
     }
 
 .card {
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    border-radius: 0.3125em;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+    padding: 1.25em;
     }
 
 .card h3 {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     }
 
 .date {
     color: #666;
     font-size: 0.9rem;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     }
 
 .thirdSection ul {
@@ -232,12 +233,12 @@ main hr{
         margin-top:2%;
         }
 .fourthSection ul li{
-    margin-right: 800px;
+    margin-right: 50em;
     padding: 0;
     list-style-type: disc;
     }
 ul li {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em;
     }
 .video-wrapper {
     position: relative;
@@ -260,7 +261,7 @@ ul li {
     color: gray;
 }
 .space{
-    margin: 40px 40px;
+    margin: 2.5em 2.5em;
 }
 .bold{
     font-style:italic;
