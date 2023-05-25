@@ -133,7 +133,7 @@ main hr{
     max-width: 80vw;
     margin:auto;
     height: 80vh;
-    margin-bottom: 110%;
+    margin-bottom: 95%;
 }
 .thirdSection h1{
     font-size: 2rem;
@@ -163,7 +163,12 @@ main hr{
     position: relative;
     left: 60.5em;
     top: -14.0625em;
+    height: auto;
 }
+.certi:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  
 .vertical-title{
     position: relative;
     top: 1.25em;
@@ -281,7 +286,7 @@ ul li {
 }
 footer{
     background-color: rgb(213, 234, 248);
-    height: 5em;
+    height: 7em;
     
 }
 .footer{
